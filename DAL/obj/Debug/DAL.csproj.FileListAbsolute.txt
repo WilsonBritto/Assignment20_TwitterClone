@@ -1,0 +1,14 @@
+c:\users\pradeep\source\repos\TwitterClone\DAL\bin\Debug\DAL.dll.config
+c:\users\pradeep\source\repos\TwitterClone\DAL\bin\Debug\DAL.dll
+c:\users\pradeep\source\repos\TwitterClone\DAL\bin\Debug\DAL.pdb
+c:\users\pradeep\source\repos\TwitterClone\DAL\bin\Debug\EntityFramework.dll
+c:\users\pradeep\source\repos\TwitterClone\DAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\pradeep\source\repos\TwitterClone\DAL\bin\Debug\EntityFramework.xml
+c:\users\pradeep\source\repos\TwitterClone\DAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\pradeep\source\repos\TwitterClone\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\users\pradeep\source\repos\TwitterClone\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+c:\users\pradeep\source\repos\TwitterClone\DAL\obj\Debug\DAL.csproj.CopyComplete
+c:\users\pradeep\source\repos\TwitterClone\DAL\obj\Debug\DAL.dll
+c:\users\pradeep\source\repos\TwitterClone\DAL\obj\Debug\DAL.pdb
+c:\users\pradeep\source\repos\TwitterClone\DAL\bin\Debug\TModel.dll
+c:\users\pradeep\source\repos\TwitterClone\DAL\bin\Debug\TModel.pdb

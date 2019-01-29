@@ -1,0 +1,26 @@
+C:\Users\Pradeep\source\repos\TwitterClone\DAL\bin\Release\DAL.dll.config
+C:\Users\Pradeep\source\repos\TwitterClone\DAL\bin\Release\DAL.dll
+C:\Users\Pradeep\source\repos\TwitterClone\DAL\bin\Release\DAL.pdb
+C:\Users\Pradeep\source\repos\TwitterClone\DAL\bin\Release\EntityFramework.dll
+C:\Users\Pradeep\source\repos\TwitterClone\DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Pradeep\source\repos\TwitterClone\DAL\bin\Release\TModel.dll
+C:\Users\Pradeep\source\repos\TwitterClone\DAL\bin\Release\TModel.pdb
+C:\Users\Pradeep\source\repos\TwitterClone\DAL\bin\Release\EntityFramework.xml
+C:\Users\Pradeep\source\repos\TwitterClone\DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Pradeep\source\repos\TwitterClone\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Pradeep\source\repos\TwitterClone\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Pradeep\source\repos\TwitterClone\DAL\obj\Release\DAL.csproj.CopyComplete
+C:\Users\Pradeep\source\repos\TwitterClone\DAL\obj\Release\DAL.dll
+C:\Users\Pradeep\source\repos\TwitterClone\DAL\obj\Release\DAL.pdb
+C:\FSE_Backup\Assignment 20\DAL\bin\Release\DAL.dll.config
+C:\FSE_Backup\Assignment 20\DAL\bin\Release\DAL.dll
+C:\FSE_Backup\Assignment 20\DAL\bin\Release\DAL.pdb
+C:\FSE_Backup\Assignment 20\DAL\bin\Release\EntityFramework.dll
+C:\FSE_Backup\Assignment 20\DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\FSE_Backup\Assignment 20\DAL\bin\Release\TModel.dll
+C:\FSE_Backup\Assignment 20\DAL\bin\Release\TModel.pdb
+C:\FSE_Backup\Assignment 20\DAL\bin\Release\EntityFramework.xml
+C:\FSE_Backup\Assignment 20\DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\FSE_Backup\Assignment 20\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\FSE_Backup\Assignment 20\DAL\obj\Release\DAL.dll
+C:\FSE_Backup\Assignment 20\DAL\obj\Release\DAL.pdb

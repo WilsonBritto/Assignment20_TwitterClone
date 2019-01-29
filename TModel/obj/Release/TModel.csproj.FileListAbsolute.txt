@@ -1,0 +1,11 @@
+C:\Users\Pradeep\source\repos\TwitterClone\TModel\bin\Release\TModel.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TModel\bin\Release\TModel.pdb
+C:\Users\Pradeep\source\repos\TwitterClone\TModel\obj\Release\TModel.csprojResolveAssemblyReference.cache
+C:\Users\Pradeep\source\repos\TwitterClone\TModel\obj\Release\TModel.csproj.CoreCompileInputs.cache
+C:\Users\Pradeep\source\repos\TwitterClone\TModel\obj\Release\TModel.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TModel\obj\Release\TModel.pdb
+C:\FSE_Backup\Assignment 20\TModel\bin\Release\TModel.dll
+C:\FSE_Backup\Assignment 20\TModel\bin\Release\TModel.pdb
+C:\FSE_Backup\Assignment 20\TModel\obj\Release\TModel.csprojResolveAssemblyReference.cache
+C:\FSE_Backup\Assignment 20\TModel\obj\Release\TModel.dll
+C:\FSE_Backup\Assignment 20\TModel\obj\Release\TModel.pdb

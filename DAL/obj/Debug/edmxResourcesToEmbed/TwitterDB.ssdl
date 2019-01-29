@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TwitterDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'TwitterDB.dbo.Following' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Following">
+    <Key>
+      <PropertyRef Name="User_Id" />
+      <PropertyRef Name="Following_Id" />
+    </Key>
+    <Property Name="User_Id" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Following_Id" Type="varchar" MaxLength="25" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="User_Id" />
+    </Key>
+    <Property Name="User_Id" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FullName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Joined" Type="datetime" Nullable="false" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tweet">
+    <Key>
+      <PropertyRef Name="Tweet_Id" />
+    </Key>
+    <Property Name="Tweet_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User_Id" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Message" Type="varchar" MaxLength="140" Nullable="false" />
+    <Property Name="Created" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Following__Follo__5629CD9C">
+    <End Role="Person" Type="Self.Person" Multiplicity="1" />
+    <End Role="Following" Type="Self.Following" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="User_Id" />
+      </Principal>
+      <Dependent Role="Following">
+        <PropertyRef Name="Following_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Following__User___5535A963">
+    <End Role="Person" Type="Self.Person" Multiplicity="1" />
+    <End Role="Following" Type="Self.Following" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="User_Id" />
+      </Principal>
+      <Dependent Role="Following">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Tweet__User_Id__59063A47">
+    <End Role="Person" Type="Self.Person" Multiplicity="1" />
+    <End Role="Tweet" Type="Self.Tweet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="User_Id" />
+      </Principal>
+      <Dependent Role="Tweet">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="AddUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="User_Id" Type="varchar" Mode="In" />
+    <Parameter Name="Password" Type="varchar" Mode="In" />
+    <Parameter Name="FullName" Type="varchar" Mode="In" />
+    <Parameter Name="Email" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="ChangeUserPassword" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="User_Id" Type="varchar" Mode="In" />
+    <Parameter Name="Password" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="DeleteUserTweet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="User_Id" Type="varchar" Mode="In" />
+    <Parameter Name="Tweet_Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="FollowUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="User_Id" Type="varchar" Mode="In" />
+    <Parameter Name="FollowUser" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GetAllPerson" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetFollowers" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="User_Id" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GetFollowing" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="User_Id" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GetTweets" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="User_Id" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="InsertTweet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TweetMsg" Type="varchar" Mode="In" />
+    <Parameter Name="User_Id" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="TwitterLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="User_Id" Type="varchar" Mode="In" />
+    <Parameter Name="Pass" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="UdpateUserTweet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="User_Id" Type="varchar" Mode="In" />
+    <Parameter Name="Tweet_Id" Type="int" Mode="In" />
+    <Parameter Name="TMsg" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="UnFollowUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="User_Id" Type="varchar" Mode="In" />
+    <Parameter Name="UnFollowUser" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="UpdateUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="User_Id" Type="varchar" Mode="In" />
+    <Parameter Name="FullName" Type="varchar" Mode="In" />
+    <Parameter Name="Email" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="TwitterDBModelStoreContainer">
+    <EntitySet Name="Person" EntityType="Self.Person" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tweet" EntityType="Self.Tweet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Following" EntityType="Self.Following" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Following].[User_Id] AS [User_Id], 
+    [Following].[Following_Id] AS [Following_Id]
+    FROM [dbo].[Following] AS [Following]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__Following__Follo__5629CD9C" Association="Self.FK__Following__Follo__5629CD9C">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Following" EntitySet="Following" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Following__User___5535A963" Association="Self.FK__Following__User___5535A963">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Following" EntitySet="Following" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Tweet__User_Id__59063A47" Association="Self.FK__Tweet__User_Id__59063A47">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Tweet" EntitySet="Tweet" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

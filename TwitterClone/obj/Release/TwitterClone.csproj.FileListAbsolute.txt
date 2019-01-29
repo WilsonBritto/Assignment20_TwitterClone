@@ -1,0 +1,260 @@
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\ApplicationInsights.config
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\TwitterClone.dll.config
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\TwitterClone.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\TwitterClone.pdb
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\csc.exe
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\csc.exe.config
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\csc.rsp
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\csi.exe
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\csi.exe.config
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\csi.rsp
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.AppContext.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Console.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.IO.Compression.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Security.Claims.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.ValueTuple.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\vbc.exe
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\vbc.exe.config
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\vbc.rsp
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Antlr3.Runtime.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\BLL.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\EntityFramework.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\EntityFramework.SqlServer.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AI.Web.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Security.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Newtonsoft.Json.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Owin.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\PagedList.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\PagedList.Mvc.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\System.Web.Helpers.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\System.Web.Mvc.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\System.Web.Optimization.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\System.Web.Razor.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\System.Web.WebPages.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\TModel.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\WebGrease.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\DAL.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\BLL.pdb
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\TModel.pdb
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\PagedList.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\PagedList.Mvc.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\System.Web.Helpers.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\System.Web.Mvc.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\System.Web.Optimization.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\System.Web.Razor.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\System.Web.WebPages.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Antlr3.Runtime.pdb
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Newtonsoft.Json.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\EntityFramework.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\EntityFramework.SqlServer.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Security.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\Microsoft.AI.Web.xml
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\DAL.pdb
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\bin\DAL.dll.config
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\obj\Release\TwitterClone.csprojResolveAssemblyReference.cache
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\obj\Release\TwitterClone.csproj.CoreCompileInputs.cache
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\obj\Release\TwitterClone.csproj.CopyComplete
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\obj\Release\TwitterClone.dll
+C:\Users\Pradeep\source\repos\TwitterClone\TwitterClone\obj\Release\TwitterClone.pdb
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\ApplicationInsights.config
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\TwitterClone.dll.config
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\TwitterClone.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\TwitterClone.pdb
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\csc.exe
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\csc.exe.config
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\csc.rsp
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\csi.exe
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\csi.exe.config
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\csi.rsp
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.AppContext.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Collections.Immutable.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Console.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Diagnostics.Process.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.IO.Compression.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.IO.FileSystem.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.IO.Pipes.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Reflection.Metadata.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Security.AccessControl.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Security.Claims.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Security.Principal.Windows.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Threading.Thread.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.ValueTuple.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Xml.XmlDocument.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Xml.XPath.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\vbc.exe
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\vbc.exe.config
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\vbc.rsp
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\VBCSCompiler.exe
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\roslyn\VBCSCompiler.exe.config
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Antlr3.Runtime.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\BLL.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\EntityFramework.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\EntityFramework.SqlServer.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AI.Agent.Intercept.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AI.DependencyCollector.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AI.Web.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AI.WindowsServer.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.ApplicationInsights.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AspNet.Identity.Core.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Security.Cookies.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Security.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Security.Facebook.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Security.Google.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Security.OAuth.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Security.Twitter.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Web.Infrastructure.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Newtonsoft.Json.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Owin.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\PagedList.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\PagedList.Mvc.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\System.Web.Helpers.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\System.Web.Mvc.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\System.Web.Optimization.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\System.Web.Razor.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\System.Web.WebPages.Deployment.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\System.Web.WebPages.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\System.Web.WebPages.Razor.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\TModel.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\WebGrease.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\DAL.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\BLL.pdb
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\TModel.pdb
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\PagedList.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\PagedList.Mvc.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\System.Web.Helpers.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\System.Web.Mvc.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\System.Web.Optimization.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\System.Web.Razor.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\System.Web.WebPages.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\System.Web.WebPages.Deployment.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\System.Web.WebPages.Razor.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Antlr3.Runtime.pdb
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Newtonsoft.Json.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\EntityFramework.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\EntityFramework.SqlServer.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AspNet.Identity.Core.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Security.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Security.Facebook.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Security.Cookies.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Security.OAuth.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Security.Google.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Security.Twitter.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.ApplicationInsights.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AI.DependencyCollector.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AI.WindowsServer.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\Microsoft.AI.Web.xml
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\DAL.pdb
+C:\FSE_Backup\Assignment 20\TwitterClone\bin\DAL.dll.config
+C:\FSE_Backup\Assignment 20\TwitterClone\obj\Release\TwitterClone.csprojResolveAssemblyReference.cache
+C:\FSE_Backup\Assignment 20\TwitterClone\obj\Release\TwitterClone.dll
+C:\FSE_Backup\Assignment 20\TwitterClone\obj\Release\TwitterClone.pdb

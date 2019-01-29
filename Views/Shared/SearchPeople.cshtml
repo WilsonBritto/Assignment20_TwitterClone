@@ -1,0 +1,10 @@
+﻿@using TModel
+@model IEnumerable<TwitterLogin_MResult>
+@foreach (TwitterLogin_MResult p in Model)
+{
+<div class="row" style="margin-left:0px; max-width:190px;border-radius:10px;background-color:#1ab5ff; text-align:center">
+    <span id="Tid" class="badge badge-primary badge-pill" style="background-color: #1ab5ff">
+        <a style="color:white;" href="javascript: GetPersonDetails('@p.User_Id')">@p.User_Id</a>
+    </span>
+</div>
+}

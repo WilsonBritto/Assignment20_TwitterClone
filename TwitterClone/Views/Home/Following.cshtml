@@ -1,0 +1,23 @@
+﻿
+<div class="row">
+    <a href="@Url.Action("Index", "Home", null)" style="font-weight:bold">
+        Home<img src="\Images\Twitter-featured.png" style="vertical-align: middle; margin-top:12px; max-width:30px; max-height:30px; ">
+    </a>
+</div>
+<div class="row" style="font-weight:bold">
+    Following
+</div>
+
+<div class="row">
+    <ul class="list-group">
+        @foreach (var user in Model)
+        {
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            @user
+            <span id="Tid" class="badge badge-primary badge-pill" style="background-color: #1ab5ff">
+                @Html.ActionLink("UnFollow", "UnFollowUser", new { @id = user }, new { @style = "color:white;" })
+            </span>
+        </li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,127 @@
+﻿@model PagedList.IPagedList<TModel.GetTweets_MResult>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row" style="margin:25px 10px 10px 10px;">
+    <div class="col-md-3">
+        @Html.Label("Follow")
+        <div class="row" style="max-width:190px">
+            @*@Html.TextBox("SearchText", new { @style="border-radius:10px;"})*@
+            <input type="text" name="SearchName" id="searchID" placeholder="Search Person" style="border-radius:10px; max-width:160px;" />
+
+            <a href="javascript: GetUserList()"><img style="max-height:25px; max-width:25px;" src="\images\searchIcon.png" /></a>
+            <hr />
+            <div id="searchResult" style="margin-top:15px;">
+                @*     @Html.Action("SearchPeople", new { keyword = "" })*@
+            </div>
+
+            <br /><br />
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Tweets
+                    <span class="badge badge-primary badge-pill" style="background-color: #1ab5ff"><a style="color:white" href="javascript: ReplaceContentInContainer('Tweets')">@ViewBag.TweetCount</a></span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Following
+                    <span class="badge badge-primary badge-pill" style="background-color: #1ab5ff"><a style="color:white" href="javascript: ReplaceContentInContainer('Following')">@ViewBag.Following</a></span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Followers
+                    <span class="badge badge-primary badge-pill" style="background-color: #1ab5ff"><a style="color:white" href="javascript: ReplaceContentInContainer('Followers')">@ViewBag.followers</a></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="pView" class="col-md-9">
+        @using (Html.BeginForm("Update", "Home", FormMethod.Post))
+        {
+            @Html.Label("What are you doing?")
+            <div class="row">
+                @Html.TextArea("TweetText", new { @placeholder = "What are you doing?", @rows = "6", @cols = "100", @style = "max-width:580px;" })
+            </div>
+        <div class="row" style="float:right !important; margin:12px 25px;">
+            <input type="submit" name="Update" value="Update" style="border-radius:10px;" />
+            @* @Html.ActionLink("Update", "Update","Home", new { @class="button-primary", @style= "max-width:30px; border-color:#1ab5ff; backgorund-color:#1ab5ff" })*@
+        </div>
+        }
+
+        <div class="row" style="max-width:580px;">
+            <div class="row" style="margin:45px 0px 0px 0px; border:0.1px solid #b3babf">
+                @Html.Label("Tweets")
+            </div>
+            <div class="container" style="background:white; max-width:580px; min-height:400px; max-height:600px;border:1px solid #b3babf">
+
+                @foreach (var item in Model)
+            {
+
+                <div class="row">
+                    <div class="col-md-2.5" style="color:#0e6bc5; font-weight:bold;"> @Html.Label("@")@Html.DisplayFor(modelItem => item.User_Id)</div>
+                    <div class="col-md-7"> @Html.DisplayFor(modelItem => item.Message) </div>
+                    <div class="col-md-2.5"> @Html.DisplayFor(modelItem => item.Created) </div>
+                </div><hr>
+        }
+                Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+                @Html.PagedListPager(Model, page => Url.Action("Index",
+                           new { page }))
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<script type="text/javascript">
+
+    function ReplaceContentInContainer(page) {
+        //var container = document.getElementById(id);
+        //container.innerHTML = content;
+        
+        if (page == "Tweets")
+        {
+            $("#pView").load("/home/Tweets");
+        }
+        else if (page == "Following")
+        {
+            $("#pView").load("/home/Following");
+        }
+        else
+        {
+            $("#pView").load("/home/Followers");
+        }
+        //$("#pView").replaceWith("<h2>New heading</h2>");
+    }
+
+    function GetProfile(){
+        $("#pView").load("/Account/UserProfile");
+    }
+     function PasswordPage(){
+        $("#pView").load("/Account/PasswordManager");
+    }
+    function GetUserList() {
+        var srctxt = document.getElementById("searchID").value;
+        $("#searchResult").load("/home/SearchPeople?keyword="+ srctxt);
+
+    }
+    function EditTweet(id){
+        $("#pView").load("/Home/Edit?id=" + id);
+    }
+    function DeleteTweet(id){
+        $("#pView").load("/Home/Delete?id=" + id);
+    }
+
+    function GetPersonDetails(id)
+    {
+        $("#pView").load("/Home/ProfileOthers?id=" + id);
+    }
+    //function UnFollow(id){
+    //alert(id);
+    //    $("#pView").load("/Home/UnFollowUser?id=" + id);
+    //}
+    //function Follow(id){
+    //    $("#pView").load("/Home/FollowUser?id=" + id);
+    //}
+</script>

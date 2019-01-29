@@ -1,0 +1,48 @@
+﻿@model TModel.TwitterLogin_MResult
+
+<div>
+    <h4>TwitterLogin_MResult</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.User_Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User_Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FullName)
+        </dd>
+
+        <dd>
+            <span id="Tid" class="badge badge-primary badge-pill" style="background-color: #1ab5ff">
+                @if (ViewBag.Following == true)
+                {
+                     @Html.ActionLink("UnFollow", "UnFollowUser", new { @id = Model.User_Id },new { @style = "color:white;" })
+                }
+                else
+                {
+                    @Html.ActionLink("Follow", "FollowUser", new { @id = Model.User_Id }, new { @style = "color:white;" })
+                }
+             </span>
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to Home", "Index")
+</p>

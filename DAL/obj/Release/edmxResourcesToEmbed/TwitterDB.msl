@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TwitterDBModelStoreContainer" CdmEntityContainer="TwitterDBEntities">
+    <EntitySetMapping Name="People">
+      <EntityTypeMapping TypeName="TwitterDBModel.Person">
+        <MappingFragment StoreEntitySet="Person">
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Joined" ColumnName="Joined" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tweets">
+      <EntityTypeMapping TypeName="TwitterDBModel.Tweet">
+        <MappingFragment StoreEntitySet="Tweet">
+          <ScalarProperty Name="Tweet_Id" ColumnName="Tweet_Id" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Following" TypeName="TwitterDBModel.Following" StoreEntitySet="Following">
+      <EndProperty Name="Person">
+        <ScalarProperty Name="User_Id" ColumnName="Following_Id" />
+      </EndProperty>
+      <EndProperty Name="Person1">
+        <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="AddUser" FunctionName="TwitterDBModel.Store.AddUser" />
+    <FunctionImportMapping FunctionImportName="TwitterLogin" FunctionName="TwitterDBModel.Store.TwitterLogin">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TwitterDBModel.TwitterLogin_Result">
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Joined" ColumnName="Joined" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetAllPerson" FunctionName="TwitterDBModel.Store.GetAllPerson">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TwitterDBModel.GetAllPerson_Result">
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Joined" ColumnName="Joined" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="InsertTweet" FunctionName="TwitterDBModel.Store.InsertTweet" />
+    <FunctionImportMapping FunctionImportName="GetTweets" FunctionName="TwitterDBModel.Store.GetTweets">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TwitterDBModel.GetTweets_Result">
+          <ScalarProperty Name="Tweet_Id" ColumnName="Tweet_Id" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UpdateUser" FunctionName="TwitterDBModel.Store.UpdateUser" />
+    <FunctionImportMapping FunctionImportName="ChangeUserPassword" FunctionName="TwitterDBModel.Store.ChangeUserPassword" />
+    <FunctionImportMapping FunctionImportName="DeleteUserTweet" FunctionName="TwitterDBModel.Store.DeleteUserTweet" />
+    <FunctionImportMapping FunctionImportName="UdpateUserTweet" FunctionName="TwitterDBModel.Store.UdpateUserTweet" />
+    <FunctionImportMapping FunctionImportName="FollowUser" FunctionName="TwitterDBModel.Store.FollowUser" />
+    <FunctionImportMapping FunctionImportName="GetFollowers" FunctionName="TwitterDBModel.Store.GetFollowers" />
+    <FunctionImportMapping FunctionImportName="GetFollowing" FunctionName="TwitterDBModel.Store.GetFollowing" />
+    <FunctionImportMapping FunctionImportName="UnFollowUser" FunctionName="TwitterDBModel.Store.UnFollowUser" />
+  </EntityContainerMapping>
+</Mapping>

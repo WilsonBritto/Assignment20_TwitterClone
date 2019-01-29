@@ -1,0 +1,20 @@
+﻿<div class="row">
+    <a href="@Url.Action("Index", "Home", null)" style="font-weight:bold">
+        Home<img src="\Images\Twitter-featured.png" style="vertical-align: middle; margin-top:12px; max-width:30px; max-height:30px; ">
+    </a>
+</div>
+<div class="row" style="font-weight:bold">
+    Followers
+</div>
+
+<div class="row">
+    <ul class="list-group">
+        @foreach (var user in Model)
+        {
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            @user
+        </li>
+        }
+    </ul>
+</div>
+

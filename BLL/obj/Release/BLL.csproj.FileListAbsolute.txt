@@ -1,0 +1,26 @@
+C:\Users\Pradeep\source\repos\TwitterClone\BLL\bin\Release\BLL.dll
+C:\Users\Pradeep\source\repos\TwitterClone\BLL\bin\Release\BLL.pdb
+C:\Users\Pradeep\source\repos\TwitterClone\BLL\bin\Release\DAL.dll
+C:\Users\Pradeep\source\repos\TwitterClone\BLL\bin\Release\TModel.dll
+C:\Users\Pradeep\source\repos\TwitterClone\BLL\bin\Release\EntityFramework.dll
+C:\Users\Pradeep\source\repos\TwitterClone\BLL\bin\Release\DAL.pdb
+C:\Users\Pradeep\source\repos\TwitterClone\BLL\bin\Release\DAL.dll.config
+C:\Users\Pradeep\source\repos\TwitterClone\BLL\bin\Release\TModel.pdb
+C:\Users\Pradeep\source\repos\TwitterClone\BLL\bin\Release\EntityFramework.xml
+C:\Users\Pradeep\source\repos\TwitterClone\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Pradeep\source\repos\TwitterClone\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Pradeep\source\repos\TwitterClone\BLL\obj\Release\BLL.csproj.CopyComplete
+C:\Users\Pradeep\source\repos\TwitterClone\BLL\obj\Release\BLL.dll
+C:\Users\Pradeep\source\repos\TwitterClone\BLL\obj\Release\BLL.pdb
+C:\FSE_Backup\Assignment 20\BLL\bin\Release\BLL.dll
+C:\FSE_Backup\Assignment 20\BLL\bin\Release\BLL.pdb
+C:\FSE_Backup\Assignment 20\BLL\bin\Release\DAL.dll
+C:\FSE_Backup\Assignment 20\BLL\bin\Release\TModel.dll
+C:\FSE_Backup\Assignment 20\BLL\bin\Release\EntityFramework.dll
+C:\FSE_Backup\Assignment 20\BLL\bin\Release\DAL.pdb
+C:\FSE_Backup\Assignment 20\BLL\bin\Release\DAL.dll.config
+C:\FSE_Backup\Assignment 20\BLL\bin\Release\TModel.pdb
+C:\FSE_Backup\Assignment 20\BLL\bin\Release\EntityFramework.xml
+C:\FSE_Backup\Assignment 20\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\FSE_Backup\Assignment 20\BLL\obj\Release\BLL.dll
+C:\FSE_Backup\Assignment 20\BLL\obj\Release\BLL.pdb

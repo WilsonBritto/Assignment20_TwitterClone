@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My Twitter Clone</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body style="background: #e6ecf0;">
+    <div class="navbar navbar navbar-fixed-top" style="background:white;border-color:#808080">
+        <div class="container" style="background:white; max-width:890px; min-height:40px; max-height:46px;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*@Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+                <a href="@Url.Action("Index", "Home", null)">
+                    <img src="\Images\Twitter-featured.png" style="vertical-align: middle; margin-top:12px; max-width:30px; max-height:30px; ">
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { @style = "color:#808080;font-weight:bold;" })</li>
+                    <li>@Html.ActionLink("About", "About", "Home", new { @style = "color:#808080;font-weight:bold;" })</li>
+                    @*<li>@Html.ActionLink("Contact", "Contact", "Home")</li>*@
+                </ul>
+                <ul class="nav navbar-nav navbar-brand" style="margin-left:100px;">
+                    <li>
+                        @Html.Label("My Twitter Clone")
+                    </li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content" style="background:#e6ecf0;max-width:880px;">
+        <div class="container-fluid" style="background:white; margin-top:15px; border:1px solid #e6ecf0;">
+            @RenderBody()
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

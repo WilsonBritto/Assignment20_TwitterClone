@@ -1,0 +1,6 @@
+c:\users\pradeep\source\repos\TwitterClone\TModel\bin\Debug\TModel.dll
+c:\users\pradeep\source\repos\TwitterClone\TModel\bin\Debug\TModel.pdb
+c:\users\pradeep\source\repos\TwitterClone\TModel\obj\Debug\TModel.csprojResolveAssemblyReference.cache
+c:\users\pradeep\source\repos\TwitterClone\TModel\obj\Debug\TModel.csproj.CoreCompileInputs.cache
+c:\users\pradeep\source\repos\TwitterClone\TModel\obj\Debug\TModel.dll
+c:\users\pradeep\source\repos\TwitterClone\TModel\obj\Debug\TModel.pdb
